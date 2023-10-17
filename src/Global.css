@@ -1,0 +1,12 @@
+
+.btn {
+    display: flex;
+    align-items: center;
+    float: right;
+    width: 700px;
+  }
+  
+  .image-upper {
+    margin-top: -350px; 
+  }
+  

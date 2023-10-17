@@ -1,0 +1,23 @@
+
+.app {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .feedback-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .comment-box {
+    margin-top: 20px;
+  }
+  
+
+
+

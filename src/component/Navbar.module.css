@@ -1,0 +1,129 @@
+
+.whiteLogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100px;
+  margin: 25px; 
+  margin-left: 70px;
+  position: fixed;
+}
+
+
+.box{
+ position: fixed;
+ top: 0;
+ width: 100%;
+  background-color: rgb(139, 180, 180,0.05);
+  display: flex;
+  justify-content: space-evenly;
+  height: 4vh;
+  padding: 1em;
+  
+}
+.link{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 800px;
+  color: aliceblue;
+  padding: 18px;
+  align-items: center;
+ 
+  
+  
+  
+}
+.lin{
+  color:white;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.mobile{
+  display: none;
+  position: fixed;
+  right: 0em;
+  color: rgb(134, 153, 153);
+  font-size: 2em;
+  text-shadow: 3px 3px rgb(179, 83, 83);
+ 
+
+}
+.joibus{
+  position: fixed;
+  right: 3em;
+  margin-left: 1.5em;
+  background-color: rgb(0, 110, 255);
+  box-shadow: 1px 1px  5px white;
+  color: white;
+  padding: 0.5em;
+  border-radius: 5px;
+ 
+}
+
+.joinlogin{
+  position: fixed;
+  right: 3em;
+  margin-left: 1.5em;
+  background-color: rgb(0, 94, 42);
+  /* border-radius: 20%; */
+  box-shadow: 1px 1px  5px white;
+  color: white;
+  padding: 0.5em;
+}
+.logo{
+  position: fixed;
+  left: 2.5em;
+  color: rgb(155, 95, 95);
+  width: 3.6em;
+  height: 1.9em;
+  font-size: 2em;
+ 
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px; 
+  box-sizing: border-box;
+}
+@media screen and (max-width: 760px) {
+  .link {
+    display: none;
+  }
+  .lin {
+    font-size: 3em; 
+  }
+  #menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .mobile {
+    display: unset; 
+    font-size: 3em;
+   
+  }
+  .joibus {
+    display: none; 
+  }
+  .box {
+    height: 15vh; 
+  }
+  .logo {
+    font-size: 3em; 
+  }
+  .whiteLogo {
+    width: 60px; 
+    margin-left: 20px; 
+  }
+  .logo {
+    margin-left: 20px;
+  }
+  .mobile {
+    margin-right: 20px; 
+    display: block;
+  }
+}
